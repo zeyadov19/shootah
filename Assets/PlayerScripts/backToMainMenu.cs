@@ -5,9 +5,7 @@ public class BackToMainMenu : MonoBehaviour
 {
     public void MainGame()
     {
-        Debug.Log("Start Game clicked!");
-
-        // Make sure scene at index 1 exists and is added to build settings
+        Cursor.lockState = CursorLockMode.None;
         SceneManager.LoadScene(0);
     }
 }
